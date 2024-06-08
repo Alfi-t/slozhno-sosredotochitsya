@@ -1,12 +1,11 @@
 @charset "UTF-8";
+
 /*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
+  Переменные для вашего проекта и их переопределение под различные устройства
 */
 :root {
-  /* Переменные тёмной темы */
-  --font-family: "IBM Plex mono";
-  --font-family: "IBM Plex mono";
+  /* Переменные для темной темы */
+  --font-family: "IBM Plex Mono", monospace;
   --main-text-color: #353430;
   --title-color: #ffc2e6;
   --title-shadow: #ff0070;
@@ -20,13 +19,14 @@
   --corners-color: var(--main-text-color);
   --link-shadow: var(--title-color);
   --rec-color: var(--background-color);
+  --header-title-color-light: #ffc2e6;
+  --header-title-color-dark: initial;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --main-text-color: #f1b2ce;
     --title-color: #db00ff;
-    --title-shadow: #ff0070;
     --hover-color: 1px solid rgba(255, 0, 112, 0.4);
     --background-color: #000028;
     --background-image: url(../images/cover-image-dark.png);
@@ -37,14 +37,7 @@
     --title-decor: var(--title-shadow);
     --link-shadow: var(--title-shadow);
     --rec-color: var(--title-shadow);
-    --header-title-color: var(--header-title-color-dark);
   }
-}
-
-:root {
-  --font-family: "IBM Plex Mono", monospace;
-  --header-title-color-light: #ffc2e6;
-  --header-title-color-dark: initial;
 }
 
 @media (prefers-color-scheme: light) {
@@ -63,7 +56,8 @@
     --link-shadow: var(--title-color);
     --rec-color: var(--background-color);
   }
-    .header__title {
-      color: #ffc2e6;
-    }
+
+  .header__title {
+    color: var(--header-title-color-light);
   }
+}
