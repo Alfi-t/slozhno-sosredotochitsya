@@ -1,26 +1,21 @@
-@charset "UTF-8";
-
-/*
-  Переменные для вашего проекта и их переопределение под различные устройства
-*/
 :root {
-  /* Переменные для темной темы */
   --font-family: "IBM Plex Mono", monospace;
   --main-text-color: #353430;
   --title-color: #ffc2e6;
   --title-shadow: #ff0070;
   --title-decor: #ff8dcb;
   --hover-color: 1px solid rgba(50, 49, 45, 0.4);
-  --background-color: #fff1f7;
+  --background-color: #000028;
   --background-image: url(../images/cover-image-light.png);
   --article-title-color: var(--main-text-color);
   --section-title-color: var(--main-text-color);
   --border-color: var(--title-shadow);
   --corners-color: var(--main-text-color);
   --link-shadow: var(--title-color);
-  --rec-color: var(--background-color);
   --header-title-color-light: #ffc2e6;
   --header-title-color-dark: initial;
+  --header-rec-color: transparent;
+  --title-decor-text: var(--main-text-color);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -36,7 +31,8 @@
     --corners-color: var(--title-shadow);
     --title-decor: var(--title-shadow);
     --link-shadow: var(--title-shadow);
-    --rec-color: var(--title-shadow);
+    --header-rec-color: #ff0070;
+    --title-decor-text: var(--background-color);
   }
 }
 
@@ -54,10 +50,9 @@
     --border-color: var(--title-shadow);
     --corners-color: var(--main-text-color);
     --link-shadow: var(--title-color);
-    --rec-color: var(--background-color);
+    --header-rec-color: transparent;
+    --title-decor-text: var(--main-text-color);
   }
 
-  .header__title {
-    color: var(--header-title-color-light);
-  }
+  
 }
