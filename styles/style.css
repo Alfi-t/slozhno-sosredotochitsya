@@ -17,6 +17,7 @@
 
 .header {
   align-items: start;
+  height: 100%;
 }
 
 .header__rec {
