@@ -310,6 +310,7 @@
 
   .section-two__title {
     grid-row: 1;
+    width: 200px;
   }
 
   .section-two__article-list {
@@ -326,6 +327,10 @@
     line-height: 129.5px;
     margin-top: 273px;
     margin-bottom: 0px;
+  }
+
+  .section-two__title {
+    width: 260px;
   }
 
   .header__second-title {
