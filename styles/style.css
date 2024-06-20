@@ -77,7 +77,8 @@
   line-height: 95.7%;
   color: var(--title-color);
   text-shadow: 4px 4px 0px var(--title-shadow);
-  margin-top: 55px;
+  margin-top: 65px;
+  margin-bottom: 55px;
 }
 
 
@@ -95,7 +96,7 @@
 
 .header__theme-menu {
   justify-self: end;
-  margin-block: 65px;
+  margin-top: 65px;
 }
 
 .header__theme-menu-list {
