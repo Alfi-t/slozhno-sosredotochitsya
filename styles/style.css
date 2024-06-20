@@ -83,7 +83,7 @@
 
 
 .header__second-title {
-  margin-block: 55px;
+  margin-bottom: 56px;
   color: var(--title-decor-text);
   background: var(--title-decor);
   font-weight: 700;
