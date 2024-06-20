@@ -147,7 +147,7 @@
 .section__article {
   display: grid;
   grid-template-rows: auto 1fr;
-  gap: 20px;
+  gap: 10px;
 }
 
 .section__article-text-link {
