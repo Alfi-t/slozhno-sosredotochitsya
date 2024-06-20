@@ -7,6 +7,7 @@
   --background-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
   --title-decor-text: var(--background-color);
+  --title-decor-background: var(--title-decor);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,5 +20,6 @@
     --background-color: #000028;
     --background-image: url(../images/cover-image-dark.png);
     --title-decor-text: var(--background-color);
+    --title-decor-background: var(--title-decor);
   }
 }
