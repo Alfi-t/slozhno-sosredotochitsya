@@ -208,7 +208,7 @@
 
 .image-list {
   display: grid;
-  gap: 20px;
+  gap: 10px;
 }
 
 .image-list__item-img {
