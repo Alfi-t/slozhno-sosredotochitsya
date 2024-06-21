@@ -5,9 +5,12 @@
   --title-shadow: #ff0070;
   --hover-color: 1px solid rgba(255, 0, 112, 0.4);
   --background-color: #000028;
-  --background-image: url(../images/cover-image-dark.png);
   --title-decor-text: var(--background-color);
   --title-decor-background: var(--title-decor);
+  --corners-color: var(--title-shadow);
+  --title-decor: var(--title-shadow);
+  --link-shadow: var(--title-shadow);
+  --header-rec-color: #ff0070;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,8 +21,11 @@
     --title-shadow: #ff0070;
     --hover-color: 1px solid rgba(255, 0, 112, 0.4);
     --background-color: #000028;
-    --background-image: url(../images/cover-image-dark.png);
     --title-decor-text: var(--background-color);
     --title-decor-background: var(--title-decor);
+    --corners-color: var(--title-shadow);
+    --title-decor: var(--title-shadow);
+    --link-shadow: var(--title-shadow);
+    --header-rec-color: #ff0070;
   }
 }
