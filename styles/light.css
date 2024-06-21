@@ -10,6 +10,7 @@
   --title-decor-text: var(--main-text-color);
   --title-decor-background: var(--title-decor);
   --link-shadow: var(--title-color);
+  --background-color: #fff1f7;
 }
 
 @media (prefers-color-scheme: light) {
@@ -25,5 +26,6 @@
     --title-decor-text: var(--main-text-color);
     --title-decor-background: var(--title-decor);
     --link-shadow: var(--title-color);
+    --background-color: #fff1f7;
   }
 }
