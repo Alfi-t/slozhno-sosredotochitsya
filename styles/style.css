@@ -82,8 +82,6 @@
 
 .header__title {
   margin-bottom: 56px;
-  color: var(--title-decor-text);
-  background: var(--title-decor);
   font-weight: 700;
 }
 
@@ -175,11 +173,6 @@
   font-weight: 700;
   font-size: inherit;
   line-height: inherit;
-}
-
-.section__title-decor {
-  color: var(--title-decor-text);
-  background-color: var(--title-decor-background);
 }
 
 .advice {
@@ -315,6 +308,10 @@
     flex-direction: column;
     gap: 20px;
   }
+
+  .footer {
+    min-height: 1024px;
+  }
 }
 
 @media (width >=1024px) {
@@ -350,5 +347,9 @@
   .section-what__article-list {
     flex-wrap: wrap;
     flex-direction: row;
+  }
+
+  .footer {
+    min-height: 768px;
   }
 }
