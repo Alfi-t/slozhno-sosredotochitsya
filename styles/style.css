@@ -213,10 +213,7 @@
 }
 
 .footer {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  place-items: center;
 }
 
 .section-what__article-list {
@@ -231,6 +228,7 @@
     line-height: 99px;
     margin-top: 173px;
     margin-bottom: 0px;
+    padding-top: 210px;
   }
 
   .header {
@@ -310,15 +308,6 @@
     flex-wrap: nowrap;
     flex-direction: column;
     gap: 20px;
-  }
-
-  .footer {
-    position: relative;
-    display: grid;
-    place-items: center;
-    block-size: 100vh;
-    min-block-size: 668px;
-    padding: 10px;
   }
 }
 
