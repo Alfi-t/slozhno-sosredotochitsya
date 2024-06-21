@@ -213,7 +213,10 @@
 }
 
 .footer {
-  place-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-what__article-list {
@@ -308,10 +311,6 @@
     flex-direction: column;
     gap: 20px;
   }
-
-  .footer {
-    min-height: 1024px;
-  }
 }
 
 @media (width >=1024px) {
@@ -347,9 +346,5 @@
   .section-what__article-list {
     flex-wrap: wrap;
     flex-direction: row;
-  }
-
-  .footer {
-    min-height: 768px;
   }
 }
