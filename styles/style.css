@@ -186,6 +186,10 @@
   font-weight: 400;
 }
 
+.maybe_in_picture {
+  font-size: 18px;
+}
+
 .section-image {
   gap: 10px;
 }
