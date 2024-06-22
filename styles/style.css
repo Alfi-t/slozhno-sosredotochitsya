@@ -7,11 +7,11 @@
 }
 
 .cover {
+  display: grid;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
 
 .header {
-  display: grid;
   align-items: start;
   min-height: 100vh;
   min-block-size: 100vh;
@@ -216,7 +216,7 @@
 
 .footer {
   text-align: center;
-  align-content: center;
+  place-content: center;
   height: 667px;
 }
 
@@ -239,7 +239,6 @@
   .header__title {
     margin-top: 173px;
     margin-bottom: 0px;
-    padding-top: 210px;
   }
 
   .header {
